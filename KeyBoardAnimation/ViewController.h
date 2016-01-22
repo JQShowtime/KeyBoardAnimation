@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property(strong, nonatomic) UIView *backview;
+@property(strong, nonatomic) UITextField *inputTX;
 
 @end
 
